@@ -1,0 +1,438 @@
+<style>
+    .Name{
+    text-align: center;
+    padding: 12px;
+    font-size: 32px;
+    border-radius: 4px;
+    color: rgb(52, 151, 213);
+    margin-bottom: 1px;
+    }
+
+    .body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background: #262626;
+}
+
+    .MainPage{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        border-color: #262626;
+        border-style: solid;
+        font-size: 20px;
+        margin: 30px auto;
+        margin-left: 225px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+
+
+
+    .FAQ{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        border-color: #262626;
+        border-style: solid;
+        font-size: 20px;
+        margin: 30px auto;
+        margin-left: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .Games{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        border-color: #262626;
+        border-style: solid;
+        font-size: 20px;
+        margin: 30px auto;
+        margin-left: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .Discord{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        border-color: #262626;
+        border-style: solid;
+        font-size: 20px;
+        margin: 30px auto;
+        margin-left: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .Executors{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 150px;
+        font-weight: bold;
+    }
+
+    .Tut{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 150px;
+        font-weight: bold;
+    }
+
+    .SYNX{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(196, 192, 192);
+        font-size: 25px;
+        margin-top: 25px;
+        margin-right: 160px;
+        font-weight: lighter;
+    }
+
+    .KRNL{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(196, 192, 192);
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 175px;
+        font-weight: lighter;
+    }
+
+    .Key{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 1px;
+        font-weight: lighter;
+    }
+
+    .KeyLink{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(196, 192, 192);
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 200px;
+        font-weight: lighter;
+    }
+
+    .WorkInk{
+        color: rgb(99, 97, 97);
+    }
+
+    .KeyLink2{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(196, 192, 192);
+        font-size: 20px;
+        margin-top: 25px;
+        font-weight: lighter;
+        margin-left: 20px;
+    }
+
+    .Linkvertise{
+        color: rgb(99, 97, 97);
+    }
+
+    .Download{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 120px;
+        font-weight: lighter;
+    }
+
+    .DownloadAnswer{
+        text-align: center;
+        background-color: #262626;
+        color: rgb(196, 192, 192);
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 170px;
+        font-weight: lighter;
+    }
+
+    .ScriptText{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-weight: lighter;
+    }
+
+    .codeBlock{
+        text-align: center;
+        background-color: rgb(52, 151, 213);
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 25px;
+        font-weight: lighter;
+    }
+
+    .getKey{
+        text-align: center;
+        background-color: #262626;
+        border-color: rgb(52, 151, 213);
+        border-style: solid;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-left: 360px;
+        font-weight: lighter;
+        cursor: pointer;
+        width: 200px;
+        height: 60px;
+    }
+
+    .SupGamesText{
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 150px;
+        font-weight: bold;
+    }
+
+    .SupGamesList{
+        color: rgb(99, 97, 97);
+        margin-left: 225;
+        font-size: 23px;
+    }
+
+    .GameLinksText{
+        color: rgb(99, 97, 97);
+        margin-left: 240;
+        font-size: 23px;
+    }
+
+    .GameLinks{
+        color: rgb(99, 97, 97);
+        margin-left: 225;
+        font-size: 23px;
+    }
+
+    .DcLink {
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-right: 1px;
+        font-weight: bold;
+    }
+
+    .LinkFR {
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 23px;
+        margin-top: 25px;
+        margin-right: 1px;
+        font-weight: lighter;
+    }
+
+    .info1 {
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-right: 1px;
+        font-weight: lighter;
+    }
+
+    .info2 {
+        text-align: center;
+        background-color: #262626;
+        color: white;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-right: 1px;
+        font-weight: lighter;
+    }
+
+
+    .MainPage:hover {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .MainPage:active {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .FAQ:hover {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .FAQ:active {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .Games:hover {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .Games:active {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .Discord:hover {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .Discord:active {
+        background-color: rgb(52, 151, 213);
+    }
+
+    .getKey:hover {
+        background-color: rgb(52, 151, 213);
+    }
+
+
+
+</style>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+    <title>Verny Hub</title>
+</head>
+<body class="body">
+
+    <div id="Pages">
+
+    <h2 class="Name">Verny Hub</h2>
+
+    <button class="MainPage" data-tab-target="#Main">
+        Main
+    </button>
+
+    <button class="FAQ" data-tab-target="#FAQ">
+        FAQ        
+    </button>
+
+    <button class="Games" data-tab-target="#Games">
+        Supported Games
+    </button>
+
+    <button class="Discord" data-tab-target="#DC">
+        Discord
+    </button>
+
+    </div>
+
+    <div class="Executors" id="FAQ" data-tab-content>
+        Supported Executors
+        <p class="SYNX">
+            - Synapse X
+        </p>
+        <p class="KRNL">
+            - Krnl (I haven't tested it but it <b>should</b> work)
+        </p>
+
+        <p class="Key">
+            How do i get the <b>key</b> ?
+        </p>
+            <p class="KeyLink">You can get the <b>free</b> key from here(Work.Ink): <a class="WorkInk" href="https://work.ink/2Pz/VernyKey3" target="_blank">Click Here</a></p>
+            <p class="KeyLink2">Or from here(Linkvertise): <a class="Linkvertise" href="https://direct-link.net/454824/1weekkey1" target="_blank">Click Here</a></p>
+
+            <p class="Download">
+                The site is asking me to download a file
+            </p>
+
+                <p class="DownloadAnswer">
+                    If it does ask you to download a file u <b>should</b> download it(required) or else it wont work! The files <b>are also safe</b>
+                </p>
+    </div>
+
+    <div class="Main" id="Main" data-tab-content>
+
+        <h3 class="ScriptText">
+            Verny Hub Script
+        </h3>
+
+        <p class="codeBlock">
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/666dasdlolok/Loader/main/Ten",true))();
+        </p>
+
+        <a class="getKey" href="https://work.ink/2Pz/VernyKey3" target="_blank">Get Key From Here</a>
+
+    </div>
+
+    <div id="Games" data-tab-content>
+
+    <h2 class="SupGamesText">
+     Supported Games
+    </h2>
+
+    <ul class="SupGamesList">
+        <li>Rebirth Champions X</li>
+        <li>Tapping Simulator</li>
+        <li>Anime Clicker Fighter</li>
+        <li>One Fruit Simulator</li>
+        <li>Anime Fighting Tycoon</li>
+        <li>Ninja Legends</li>
+        <li>Muscle Legends</li>
+        <li>Legends Of Speed</li>
+    </ul>
+
+
+    </div>
+
+    <div id="DC" data-tab-content>
+
+        <h2 class="DcLink">
+            Join my discord server
+            <h4 class="LinkFR">discord.gg/dwuSS95ecF</h4>
+        </h2>
+
+        <p class="info1">
+            If you find <b>any kind</b> of bugs please let me know in my discord server!
+        </p>
+
+        <p class="info2">
+            Check My discord server out for more information and updates about scripts!
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
